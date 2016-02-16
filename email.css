@@ -1,0 +1,125 @@
+body{
+	overflow-x: hidden;
+	font-family: 'Roboto'
+}
+
+.header{
+	width: 100%:;
+	height: 100px;
+	padding:20px 30px;
+	border-bottom: 1px solid #ccc;
+
+}
+.header img{
+	
+	height: 100%;
+
+}
+.intro{
+	display: block;
+	padding:10px  30px;
+}
+.print-button{
+	margin-top: 10px;
+	display: inline-block;
+	padding:8px 16px;
+	background-color: #565656;
+	color: #fff;
+	border-radius: 2px;
+	float: right;
+	cursor: pointer;
+	transition:all 0.2s ease;
+}
+
+.print-button:hover{
+	box-shadow: 0px 0px 2px #252525;
+}
+
+.back-line{
+	padding:2px 0px 2px 15px;
+	border-radius: 2px ;
+	width: 100%;
+	background-color: #848935;
+}
+.right-line{
+	background-color: #E9BB5F;
+	border-radius:2px;
+}
+.back{
+	padding: 10px 40px;
+}
+.reduce{
+
+	color: white;
+	padding: 4px !important;
+}
+.white{
+	color:#fff;
+}
+.dark{
+	color:#252525;
+}
+.in-text{
+	padding: 10px 0px;
+	border-bottom: 1px solid #aaa;
+}
+.in-details{
+	padding: 10px 0px;
+}
+.in-details h4{
+	color:#7d7d7d;
+	font-size: 1.1em;
+	/*padding: 10px 0px;*/
+
+}
+.table{
+	padding:0px 40px;
+}
+.cart{
+	padding:0px 0px 10px 0px;
+}
+.table-head{
+	border-bottom: 1px solid #aaa;
+	min-height: 0px;
+	text-align: left;
+	padding: 10px 0px;
+	color: #4d4d4d;
+}
+.table ul li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.table ul{
+	padding:10px;
+}
+.table-info{
+	width: 100%;
+	display: block;
+}
+ul{
+	padding: 0px;
+}
+ul li{
+	list-style: none;
+}
+.info{
+	padding: 15px 0px;
+	color: #252525;
+	word-wrap:break-word;
+}
+.total{
+	margin-left: 20px;
+	color: #6d6d6d;
+	padding: 8px 0px;
+}
+span{
+	color:#252525;
+}
+.thanks{
+	margin-bottom: 20px;
+}
+@media(max-width:520px){
+	.table-head{
+		min-height: 70px;
+	}
+}
